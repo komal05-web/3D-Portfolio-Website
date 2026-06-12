@@ -99,7 +99,7 @@ const Projects = () => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc style={{ marginBottom: "40px" }}>
-          I have worked on a wide range of projects. From web development to
+          I have worked on a wide range of projects. From Data Analytics to
           machine learning. Here are some of my projects:
         </Desc>
 
@@ -114,10 +114,10 @@ const Projects = () => {
           <Divider />
 
           <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
+            active={toggle === "Data Analytics"}
+            onClick={() => setToggle("Data Analytics")}
           >
-            Web apps
+            Data Analytics
           </ToggleButton>
 
           <Divider />
@@ -135,9 +135,9 @@ const Projects = () => {
             projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
-          {toggle === "web app" &&
+          {toggle === "Data Analytics" &&
             projects
-              .filter((p) => p.category === "web app")
+              .filter((p) => p.category === "Data Analytics")
               .map((project) => (
                 <ProjectCard key={project.id} project={project} />
               ))}

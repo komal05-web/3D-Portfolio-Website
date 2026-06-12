@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { headContainerAnimation } from "../../utils/motion";
 import StarCanvas from "../canvas/stars";
-import komalPDF from "../../data/komal.pdf";   
+import komalPDF from "../../data/komal.pdf";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -119,7 +119,9 @@ const ResumeButton = styled.a`
     hsla(271, 100%, 50%, 1) 0%,
     hsla(221, 100%, 50%, 1) 100%
   );
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+  box-shadow:
+    20px 20px 60px #1f2634,
+    -20px -20px 60px #1f2634;
   border-radius: 50px;
   font-weight: 600;
   font-size: 20px;
@@ -128,7 +130,9 @@ const ResumeButton = styled.a`
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 25px 25px 60px #1f2634, -25px -25px 60px #1f2634;
+    box-shadow:
+      25px 25px 60px #1f2634,
+      -25px -25px 60px #1f2634;
     filter: brightness(1);
   }
 
@@ -194,15 +198,15 @@ const Hero = () => {
                 </Title>
 
                 <TextLoop>
-                  I am a{" "}
+                  I am interested in{" "}
                   <span style={{ color: theme.primary }}>
                     <Typewriter
                       options={{
                         strings: [
-                          "Web Designer",
-                          "Frontend Developer",
-                          "UI/UX Enthusiast",
-                          "React Developer",
+                          "Data Analytics",
+                          "Data Science",
+                          "Machine Learning",
+                          "Artificial Intelligence",
                         ],
                         autoStart: true,
                         loop: true,
@@ -214,11 +218,13 @@ const Hero = () => {
 
               <motion.div {...headContainerAnimation}>
                 <SubTitle>
-                  A passionate frontend developer with experience in creating
-                  dynamic and responsive web applications using React.js and
-                  modern web technologies. Always eager to learn and explore new
-                  technologies to enhance my skills and deliver innovative
-                  solutions.
+                  A passionate Data Science & AI professional with hands-on
+                  experience in machine learning, deep learning, and data
+                  analytics. Skilled in building intelligent solutions — from
+                  NLP-powered sign language translators to end-to-end data
+                  pipelines — using Python, TensorFlow, and modern AI
+                  frameworks. Always eager to explore emerging technologies in
+                  GenAI and LLMs to deliver impactful, data-driven solutions.
                 </SubTitle>
               </motion.div>
 

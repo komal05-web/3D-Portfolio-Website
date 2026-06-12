@@ -1,31 +1,25 @@
 // Personal Bio
 export const Bio = {
-  name: "Rishav Chanda",
+  name: "Komal Pandey",
   roles: [
-    "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
-    "Programmer",
+    "Data Analytics",
+    "Data Science",
+    "Machine Learning",
+    "Artificial Intelligence",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
-  resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  github: "https://github.com/komal05-web",
 };
 
 // Skills
 export const skills = [
   {
-    title: "Frontend",
+    title: "Data Analytics",
     skills: [
-      { name: "React Js", image: "..." },
-      { name: "Redux", image: "..." },
-      { name: "Next Js", image: "..." },
+      { name: "Python", image: "..." },
+      { name: "R", image: "..." },
+      { name: "Data Analytics", image: "..." },
       { name: "Angular Js", image: "..." },
       { name: "HTML", image: "..." },
       { name: "CSS", image: "..." },
@@ -36,7 +30,7 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
+    title: "Data Science",
     skills: [
       { name: "Node Js", image: "..." },
       { name: "Express Js", image: "..." },
@@ -125,7 +119,7 @@ export const education = [
     id: 0,
     school: "Shri Ramswaroop Memorial University,Lucknow",
     date: "Oct 2022-July 2026",
-    grade: "7.27 CGPA",
+    grade: "7.37 CGPA",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     specialization: "DS+AI",
   },
@@ -157,53 +151,66 @@ export const projects = [
     tags: ["Python", "Streamlite"],
     category: "machine learning",
     github: "https://github.com/komal05-web/Movie-Recommender-System",
-    webapp: "https://movie-recommender-system-gj2gqwxeoeaaobwtchkahg.streamlit.app/",
+    webapp:
+      "https://movie-recommender-system-gj2gqwxeoeaaobwtchkahg.streamlit.app/",
   },
   {
     id: 12,
     title: "Fashion Recommendation System",
     date: "Jan 2026 - Jan 2026",
     description:
-      "A m recommendation system that will suggest movie based on your mood or movie genre.",
-    image: "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "A fashion recommendation system that will suggest fashion items based on your preferences.",
+    image:
+      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
     tags: ["Python", "Streamlit"],
     category: "machine learning",
     github: "https://github.com/komal05-web/Fashion-Recommendation-System.git",
-    webapp: "https://fashionrecommendation-system-sqdnvrz7y69gddk3gaaper.streamlit.app/",
+    webapp:
+      "https://fashionrecommendation-system-sqdnvrz7y69gddk3gaaper.streamlit.app/",
   },
   {
     id: 9,
-    title: "Snake Game",
+    title: "Netflix Data Analytics",
     date: "Jun 2025 - Jul 2025",
     description:
-      "Developed an interactive Snake Game using C",
-    image: "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: ["C"],
-    category: "web app",
-    github: "https://github.com/komal05-web/Snake-Game-C",
+      "Developed an interactive Netflix Data Analytics dashboard using Python and Pandas.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: ["Python", "Pandas", "Matplotlib"],
+    category: "Data Analytics",
+    github: "https://github.com/komal05-web/Netflix_Data_Analytics.git",
   },
-  // {
-  //   id: 0,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause podcasts...",
-  //   image: "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  // },
-  // {
-    // id: 1,
-    // title: "Vexa",
-    // date: "Oct 2022 - Jan 2023",
-    // description:
-    //   "Designed and developed the Vexa project, a project management app that helps users and teams stay organized...",
-    // image: "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    // tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "NodeMailer"],
-    // category: "web app",
-    // github: "https://github.com/rishavchanda/Project-Management-App",
-    // webapp: "https://vexa-app.netlify.app/",
-  //},
+  {
+    id: 0,
+    title: "Indian Sign Language Translator",
+    date: "September 2025 - April 2026",
+    description:
+      "Built a real-time Indian Sign Language detection system using computer vision and deep learning. Leveraged MediaPipe for hand landmark extraction and a custom-trained CNN model to classify 35+ ISL gestures with high accuracy. Features a live webcam interface for accessible, real-time gesture-to-text translation.",
+    image:
+      "https://i.ytimg.com/vi/wOmVJqg7MqI/maxresdefault.jpg",
+    tags: [
+      "Python",
+      "MediaPipe",
+      "OpenCV",
+      "CNN",
+      "Deep Learning",
+      "Computer Vision",
+    ],
+    category: "machine learning",
+    github:
+      "https://github.com/komal05-web/Indian-Sign-Language-Translator.git",
+    webapp: "",
+  },
+  {
+   id: 1,
+   title: "Hotel Booking Analysis",
+   date: "May 2026 - May 2026",
+   description:
+     "Developed a comprehensive hotel booking analysis project using Python and machine learning techniques. Analyzed a large dataset of hotel bookings to uncover trends and insights. Built predictive models to forecast booking cancellations and customer preferences, achieving high accuracy. Created interactive visualizations to present findings and support data-driven decision-making for the hospitality industry.",
+   image: "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+   tags: ["Python", "Powerpoint"],
+   category: "Data Analytics",
+   github: "https://github.com/komal05-web/Hotel_Booking_Analysis.git",
+   webapp: "",
+  },
 ];
