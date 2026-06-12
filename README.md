@@ -36,6 +36,8 @@ src/ ├── components/        # Reusable UI components ├── cards/     
 ```bash
 git clone https://github.com/komal05-web/3d-portfolio.git
 cd 3d-portfolio
+```
+
 
 ---
 
