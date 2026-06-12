@@ -36,3 +36,9 @@ src/ ├── components/        # Reusable UI components ├── cards/     
 ```bash
 git clone https://github.com/komal05-web/3d-portfolio.git
 cd 3d-portfolio
+
+---
+
+## Live Demo
+```bash
+https://mellifluous-eclair-4df1a3.netlify.app/
